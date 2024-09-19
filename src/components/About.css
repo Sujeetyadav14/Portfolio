@@ -1,0 +1,480 @@
+.about{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background-color: black;
+  padding: 64px 32px;
+  
+}
+html{
+  scroll-behavior: smooth
+}
+
+.about-section{
+width: 100%;
+}
+.about-subtitle{
+  color: #999999;
+  text-align: start;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin: 0%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+
+}
+.about-title{
+  text-align:center;
+  margin-top: 80px;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color:#cccccc;
+  filter: drop-shadow(3px 3px 4px black);
+}
+
+.about-container{
+  display: flex;
+  flex-direction:row;
+  height: 300px;
+  width: 100%;
+  /* background-color: aqua; */
+  
+}
+
+.about-me{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.my-section{
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 0%;
+  padding: 64px 32px;
+  height: fit-content;
+}
+
+.about-icon{
+  width: 50%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.frontend{
+  font-size: 10px;
+  filter: drop-shadow(3px 3px 2px #C72931);
+
+  text-align: center;
+  margin: 0%;
+}
+.icons{
+  height:100%;
+  width: 45%;
+  /* background-color:aquamarine; */
+  border-radius: 50%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 40px;
+  color: #cccccc;
+  /* flex-wrap:wrap; */
+  /* border: 2px solid #cccccc; */
+  box-shadow: 10px 10px 50px -15px #babecc,
+              -10px -10px 50px -15px #ffffff 
+  
+}
+
+
+.html{
+  position: relative;
+  left: 5px;
+  cursor: pointer;
+  color: none;
+  transition: all 0.3s;
+
+}
+
+.html:hover{
+  transform: scale(1.15);
+  
+   color: darkorange;
+}
+.css{
+  position: relative;
+  bottom: 76px;
+  right: -5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+.css:hover{
+  color: #254bdd;
+  transform: scale(1.15);
+}
+.bootstrap{
+  position: relative;
+  top: 80px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.bootstrap:hover{
+  color: #7910f8;
+  transform: scale(1.15);
+
+}
+
+.tailwind{
+  position: relative;
+  bottom: 115px;
+  right: -10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.tailwind:hover{
+  color: #36b7f0;
+  transform: scale(1.15);
+}
+
+.javascript{
+  position: relative;
+  top:115px;
+  right :20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.javascript:hover{
+  color: #f6df25;
+  transform: scale(1.15);
+}
+
+.react{
+  position: relative;
+  bottom: 80px;
+  left: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.react:hover{
+  color: #5ed3f3;
+  transform: scale(1.15);
+}
+.redux{
+  position: relative;
+  top: 80px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.redux:hover{
+  color: #7248b6;
+  transform: scale(1.15);
+}
+
+.github{
+  position: relative;
+  right: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.github:hover{
+  color: #e84e31;
+  transform: scale(1.15);
+}
+@media only screen and (min-width:1790px){
+  .about-container{
+    height: 700px;
+
+  }
+  .my-section{
+    width: 60%;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-left:140px;
+  }
+  .icons{
+    width: 10%;
+    height: 50%;
+    border: none;
+  }
+  .html{
+    position: relative;
+    left: 5px;
+  }
+  
+ 
+  .css{
+    position: relative;
+    bottom: 80px;
+    
+  }
+  
+  .bootstrap{
+    position: relative;
+    top: 80px;
+    right: 40px;
+  }
+ 
+  
+  .tailwind{
+    position: relative;
+    bottom: 120px;
+    right: -10px;
+  }
+ 
+  .javascript{
+    position: relative;
+    top:120px;
+    right :20px;
+  }
+ 
+  
+  .react{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+  }
+ 
+  .redux{
+    position: relative;
+    top: 80px;
+    right: 10px;
+  }
+  
+  
+  .github{
+    position: relative;
+    right: 5px;
+  }
+}
+  
+
+@media only screen and (min-width:1660px){
+
+  .about-container{
+    height: 700px;
+  }
+  .icons{
+    width: 25%;
+    height: 40%;
+    border: none;
+  }
+  .html{
+    position: relative;
+    left: 5px;
+  }
+  
+ 
+  .css{
+    position: relative;
+    bottom: 80px;
+    
+  }
+  
+  .bootstrap{
+    position: relative;
+    top: 80px;
+    right: 40px;
+  }
+ 
+  
+  .tailwind{
+    position: relative;
+    bottom: 120px;
+    right: -10px;
+  }
+ 
+  .javascript{
+    position: relative;
+    top:120px;
+    right :30px;
+  }
+ 
+  
+  .react{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+  }
+ 
+  .redux{
+    position: relative;
+    top: 80px;
+    right: 10px;
+  }
+  
+  
+  .github{
+    position: relative;
+    right: 5px;
+  }
+}
+
+
+@media only screen and (min-width:1279px){
+  
+  
+   .html{
+    position: relative;
+    left: 5px;
+  }
+  
+
+  .css{
+    position: relative;
+    bottom: 70px;
+    
+  }
+  
+  .bootstrap{
+    position: relative;
+    top: 80px;
+  
+  }
+ 
+  
+  .tailwind{
+    position: relative;
+    bottom: 125px;
+    right: -15px;
+  }
+
+  
+  .javascript{
+    position: relative;
+    top:125px;
+    right :20px;
+  } 
+ 
+  .react{
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+  }
+ 
+  .redux{
+    position: relative;
+    top: 80px;
+    right: 10px;
+  }
+ 
+  
+  .github{
+    position: relative;
+    right: 5px;
+  }
+}
+
+
+
+@media (max-width:1250px){
+  .icons{
+    height: 92%;
+    width: 50%;
+  }
+}
+@media(max-width:1030px){
+  .icons{
+  
+    width: 60%;
+  } 
+
+}
+
+@media (max-width:900px){
+  .icons{
+    width: 80%;
+    font-size: 30px;
+  }
+
+}
+@media (max-width:780px) {
+  .icons{
+    width: 80%;
+  }
+  .my-section{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0%;
+  }
+}
+
+@media(max-width:730px){
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:700px;
+    width: 100%;
+
+  }
+  .about-me{
+    height: 50%;
+    width: 100%;
+  }
+  .my-section{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 50%;
+    
+  }
+  .about-icon{
+    height: 50%;
+    width: 100%;
+  }
+  .icons{
+    border: none;
+    width: 50%;
+  }
+}
+
+@media (max-width:580px){
+  .icons{
+    width: 55%;
+    height: 80%;
+  }
+}
+@media (max-width:480px){
+  .icons{
+    width: 70%;
+    height: 85%;
+  }
+  .my-section{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:430px){
+  .icons{
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width:380px){
+  .icons{
+    width: 90%;
+    
+  }
+}
+
+@media (max-width:325px){
+  .icons{
+    width:100%;
+    height: 75%;
+
+  }
+}

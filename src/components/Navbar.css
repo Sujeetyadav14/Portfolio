@@ -1,0 +1,151 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  /* height: 60px; */
+  background-color: black;
+  /* border-bottom: 2px solid #C72931; */
+  /* border-bottom: 2px solid #cccccc; */
+ 
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 10px 10px 50px -15px #babecc,
+              -10px -10px 50px -15px #ffffff 
+  
+
+
+}
+
+img{
+  height:32px;
+  width: 32px;
+  cursor: pointer;
+  /* filter: drop-shadow(1px 1px 1px red); */
+ 
+  
+
+}
+
+
+
+.navbar-menu {
+  font-size: 18px;
+  font-weight: bold;
+
+ 
+  
+}
+
+  .navbar-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    /* color:#354249; */
+    color:#cccccc;
+    transition: all 0.1s;
+    background-color: black;
+    
+
+
+  }
+
+  .hamburger{
+    display:none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+        
+  }
+
+  .navbar-menu a:hover{
+    color:#999999;
+  }
+
+  @media only screen and (min-width:1790px){
+    .navbar{
+      height: 60px;
+    }
+    .navbar-menu{
+      font-size: 1.5rem;
+    }
+    img{
+    height: 52px;
+    width: 52px;
+    }
+  }
+  @media (max-width:767px){
+
+
+    .navbar {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 15px 20px; 
+      position: fixed;
+      top: 0; 
+      left: 0;
+      width: 100%; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      z-index: 1000; 
+      
+      
+  }
+  
+
+  
+  
+    .navbar-menu{
+      display: flex;
+      position: fixed;
+      align-items: center;
+     
+      top: 58px;
+      right: 0;
+      width: 100%;
+
+      height: calc(100vh - 61px);
+      /* background-color: #fff; */
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      transform: translateX(100%);
+      
+      
+      
+    }
+    .hamburger{
+      display: block;
+     margin-right: 40px;
+     /* color: #C72931; */
+     color: #1c584c;
+     color: #cccccc;
+     cursor: pointer;
+
+     
+    }
+
+    .navbar-menu.active{
+      transform: translateX(0%);
+      /* background-color: #354249; */
+      /* background-color: black; */
+      backdrop-filter: blur(40px);
+      background: rgba(255, 255, 255, 0.0);
+      } 
+
+
+
+
+    img{
+      display: flex;
+      /* margin-left: -80px; */
+    }
+  }
+
+  @media (max-width:425px){
+    img{
+      height: 24px;
+      width: 24px;
+    }
+
+  }

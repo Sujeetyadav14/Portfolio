@@ -1,0 +1,228 @@
+.hero{
+  height: 91.2vh;
+  width: 100%;
+  /* background-color:#354249;  */
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 4rem 2rem; */
+  
+}
+
+html{
+  scroll-behavior: smooth
+}
+
+p ,h3,h1{
+  margin: 0;
+  margin-left: 35px;
+  padding: 0%;
+}
+
+h3{
+  color: #999999;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  
+}
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  margin-bottom: 1.3rem;
+  text-align: left;
+  color:#cccccc;
+  padding-bottom: 10px;
+ 
+  /* filter: drop-shadow(3px 3px 2px #C72931); */
+
+
+}
+p{
+  margin: 0%;
+  margin-left: 35px;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #999999;
+  padding-right: 15px;
+}
+
+p span{
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* color:#ffffff; */
+  color: #C72931;
+  color: #1c584c;
+  /* color: #cccccc; */
+}
+
+.button{
+  display: flex;
+  gap: 1rem;
+  margin-left: 35px;
+  margin-top: 2.5rem;
+  
+}
+
+.hire-me,
+.download-cv{
+  padding:0.75rem 1.7rem;
+  font-size: 1.rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+ 
+}
+
+.hire-me{
+  background:#303A40;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #999999;
+  transition: all 0.5s;
+
+}
+.hire-me:hover{
+  background: #999999;
+  color: #1c584c;
+
+  border: 2px solid #1c584c;
+}
+
+.download-cv{
+  background-color: #303A40;
+  border: 2px solid #999999;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s;
+
+}
+
+.download-cv:hover{
+  background: #999999;
+  color: #1c584c;
+
+  border: 2px solid #1c584c;
+}
+
+.icon-container{
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left:100px;
+  cursor: pointer;
+
+}
+
+.icon{
+ color: white;
+  transition: all 0.5s;
+  
+}
+
+.icon :hover{
+  scale: 1.05;
+  /* color: #1c584c; */
+/* color: #C72931; */
+
+ 
+}
+
+@media only screen and (min-width:1790px){
+  h3{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h1{
+    font-size: 5rem;
+    line-height: 4rem;
+
+  }
+  p{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width:780px){
+  
+  h1{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:430px){
+  h1{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  p span{
+    font-size: 1.930rem;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+  }
+  .icon-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+  }
+}
+@media (max-width:380px){
+  h1{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  p span{
+    font-size: 1.8rem;
+  }
+}
+@media (max-width:325px){
+  h1{
+    font-size: 1.8rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  p span{
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:305px){
+  .button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width:fit-content;
+    margin-top: 0%;
+}
+
+}
