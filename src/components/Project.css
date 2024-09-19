@@ -73,7 +73,7 @@ html{
   background-image: url(bg1.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: all 0.5s;
 }
 #project-1:hover{
