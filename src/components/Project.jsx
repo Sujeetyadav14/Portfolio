@@ -18,7 +18,7 @@ function Project() {
     initial={{ opacity: 0, y: -100 }}
     transition={{ duration: 1.5 }}
     >
-      <div className="project-card" id="project-1">
+      <div  className="project-card" id="project-1">
         <h3 className="project-name">SalesForce-Clone</h3>
         <p className="project-description">A Salesforce website clone created using HTML and CSS, and fully responsive, ensures that the layout and design adapt seamlessly to various screen sizes and devices, providing an optimal user experience across different platforms.</p>
         <a
