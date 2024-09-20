@@ -27,16 +27,7 @@ function Skillcard({ skill, percentage, Lastweek, LastMonth }) {
       <div className="progress-circle" style={{ "--percentage": progress }}>
         <span className="percentage">{progress}%</span>
       </div>
-      {/* <div className="skill-stats">
-        <div className="stat">
-          <span className="stat-value">{Lastweek}</span>
-          <span className="stat-label">Last week</span>
-        </div>
-        <div className="stat">
-          <span className="stat-value">{LastMonth}</span>
-          <span className="stat-label">Last Month</span>
-        </div>
-      </div> */}
+    
     </div>
   );
 }
@@ -51,8 +42,8 @@ function SkillsSection() {
 
   return (
     <div className="skills-section" id="Skills">
-      <h4 className="section-subtitle">Skills</h4>
-      <h2 className="section-title">My SKILLS</h2>
+      <h4 className="section-subtitle">Skill</h4>
+      <h2 className="section-title">My Skills</h2>
       <motion.p className="section-description"
       whileInView={{ opacity: 0.8, y: 0 }}
       initial={{ opacity: 0, y: -100 }}
