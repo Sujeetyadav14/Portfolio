@@ -132,7 +132,8 @@ html{
   font-size: 1.4rem;
 }
 .section-description{
-  font-size: 0.8rem;
+  font-size: 1rem;
+    line-height: 1.5rem;
 }
 .skill-card h3{
   font-size: 1rem;
@@ -146,19 +147,25 @@ html{
   }
 }
 
+@media (max-width:480px){
+  .section-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
 
 @media (max-width:430px){
   .section-subtitle{
     font-size: 1rem;
   }
-  .section-title{
+  /* .section-title{
     font-size:1.5rem;
-  }
-  .section-description{
+  } */
+  /* .section-description{
     font-size: 0.8rem;
     line-height: 1rem;
 
-  }
+  } */
   .progress-circle{
     height: 100px;
     width: 100px;
