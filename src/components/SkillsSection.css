@@ -39,7 +39,7 @@ html{
 
 .section-description{
   color: #999999;
-   font-size:20px;
+   font-size: 1.5rem;
   margin: 0 auto 3rem;
   padding: 0%;
   
@@ -108,6 +108,13 @@ html{
   }
 }
 
+@media (max-width:890px){
+
+}.section-description{
+  font-size: 20px;
+  line-height: 1.75rem;
+}
+
 @media (max-width:780px){
 
   .progress-circle{
@@ -125,36 +132,40 @@ html{
   font-size: 1.4rem;
 }
 .section-description{
-  font-size: 16px;
+  font-size: 1rem;
+    line-height: 1.5rem;
 }
 .skill-card h3{
   font-size: 1rem;
 }
 }
 
+@media (max-width:730px){
+  .section-description{
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+}
 
-
+@media (max-width:480px){
+  .section-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
 
 @media (max-width:430px){
   .section-subtitle{
     font-size: 1rem;
   }
-  .section-title{
+  /* .section-title{
     font-size:1.5rem;
-    
-  }
-  .section-description{
-
-    /*edited
-
-           font-size: 12px; 
-    line-height: 1rem;
-    
-    */
-        font-size: 12px; 
+  } */
+  /* .section-description{
+    font-size: 0.8rem;
     line-height: 1rem;
 
-  }
+  } */
   .progress-circle{
     height: 100px;
     width: 100px;
