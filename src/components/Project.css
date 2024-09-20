@@ -70,10 +70,10 @@ html{
   transform: scale(1.05);
 }
 #project-1{
-  /* background-image: url(bg1.jpg); */
+  background-image: url(bg1.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-  /* filter: grayscale(100%); */
+  filter: grayscale(100%);
   transition: all 0.5s;
 }
 #project-1:hover{
@@ -84,7 +84,7 @@ html{
   margin:0%;
   margin-bottom: 15px;
   color: #cccccc;
-  /* color: black; */
+  color: black;
   
 }
 
@@ -93,7 +93,7 @@ html{
   line-height: 1.2rem;
   margin: 0%;
   color: #cccccc;
-  /* color: black; */
+  color: black;
   font-weight: bold;
 
 
@@ -103,7 +103,7 @@ html{
   font-size: 1.5rem;
   /* padding: 40px; */
   color: #cccccc;
-  /* color:black; */
+  color:black;
   cursor: pointer;
   padding-bottom: 10px;
   transition: all 0.3s;
@@ -171,7 +171,11 @@ html{
     font-size: 0.60rem;
   }
 }
-
+@media (max-width:730px){
+  .project-card{
+    width: 30%;
+  }
+}
 @media(max-width:670px){
   .project-card{
     width: 30%;

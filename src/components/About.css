@@ -2,7 +2,7 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  
   background-color: black;
   padding: 64px 32px;
   
@@ -421,8 +421,11 @@ width: 100%;
     width: 100%;
 
   }
+  .about-title{
+    font-size: 30px;
+  }
   .about-me{
-    height: 20%;
+    height: 30%;
     width: 100%;
   }
   .my-section{
@@ -453,8 +456,8 @@ width: 100%;
     height: 85%;
   }
   .my-section{
-    font-size: 8px;
-    line-height: 1rem;
+    font-size: 15px;
+    line-height: 1.5rem;
   }
 }
 

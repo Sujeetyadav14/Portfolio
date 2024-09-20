@@ -104,7 +104,7 @@ img{
       right: 0;
       width: 100%;
 
-      height: calc(100vh - 61px);
+      height: calc(100vh - 1px);
       /* background-color: #fff; */
       flex-direction: column;
       justify-content: center;
