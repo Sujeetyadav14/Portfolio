@@ -98,3 +98,9 @@
     height: 1.8px;
   }
 }
+
+@media (max-width:321px){
+  .left-item{
+    font-size: 0.85rem;
+  }
+}

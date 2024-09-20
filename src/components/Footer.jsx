@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div className="footer-line"></div>
       <div className="right-footer">
-        <div className="left-item">© 2024 Sujeet Yadav. All rights</div>
+        <div className="left-item">© 2024 Sujeet Yadav. All Rights Reserved</div>
         <div className="right-item">
         <a
           href="https://github.com/Sujeetyadav14"
